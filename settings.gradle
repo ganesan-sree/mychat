@@ -1,0 +1,4 @@
+include ':app', ':chat21'
+
+include ':chat'
+project(':chat').projectDir = new File('../chat21-android-sdk-master/chat21/')
